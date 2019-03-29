@@ -1,0 +1,8 @@
+{ application
+, xref_sample
+, [ {description, "Xref Sample"}
+  , {vsn, "1.0.0"}
+  , {applications, [kernel, stdlib]}
+  , {mod, {xref_sample, []}}
+  ]
+}.
